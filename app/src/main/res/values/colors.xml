@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Portfolio Theme -->
+    <color name="bg_dark">#0F0F1A</color>
+    <color name="bg_dark2">#16162A</color>
+    <color name="bg_card">#1A1A2E</color>
+    <color name="accent">#7C3AED</color>
+    <color name="accent2">#A855F7</color>
+    <color name="accent_glow">#4D7C3AED</color>
+    <color name="text_primary">#E2E8F0</color>
+    <color name="text_muted">#94A3B8</color>
+    <color name="border">#337C3AED</color>
+    <color name="tag_bg">#1E1E35</color>
+    <color name="cyan">#06B6D4</color>
+</resources>

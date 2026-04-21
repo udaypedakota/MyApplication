@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WHAT I KNOW"
+            android:textColor="#A855F7"
+            android:textSize="11sp"
+            android:letterSpacing="0.2"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My Skills"
+            android:textColor="@color/text_primary"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- Backend -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_card"
+            android:padding="20dp"
+            android:layout_marginBottom="16dp">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="⚙️  Backend"
+                android:textColor="@color/text_primary" android:textSize="15sp" android:textStyle="bold"
+                android:layout_marginBottom="14dp"/>
+            <com.google.android.material.chip.ChipGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <com.google.android.material.chip.Chip android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Java" style="@style/SkillChip"/>
+                <com.google.android.material.chip.Chip android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Spring Boot" style="@style/SkillChip"/>
+                <com.google.android.material.chip.Chip android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Spring" style="@style/SkillChip"/>
+                <com.google.android.material.chip.Chip android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="JPA" style="@style/SkillChip"/>
+                <com.google.android.material.chip.Chip android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="REST APIs" style="@style/SkillChip"/>
+                <com.google.android.material.chip.Chip android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Microservices" style="@style/SkillChip"/>
+            </com.google.android.material.chip.ChipGroup>
+        </LinearLayout>
+
+        <!-- Frontend -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_card"
+            android:padding="20dp"
+            android:layout_marginBottom="16dp">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="🖥️  Frontend"
+                android:textColor="@color/text_primary" android:textSize="15sp" android:textStyle="bold"
+                android:layout_marginBottom="14dp"/>
+            <com.google.android.material.chip.ChipGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <com.google.android.material.chip.Chip android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Angular" style="@style/SkillChip"/>
+                <com.google.android.material.chip.Chip android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="JavaScript" style="@style/SkillChip"/>
+                <com.google.android.material.chip.Chip android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="HTML" style="@style/SkillChip"/>
+                <com.google.android.material.chip.Chip android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="CSS" style="@style/SkillChip"/>
+            </com.google.android.material.chip.ChipGroup>
+        </LinearLayout>
+
+        <!-- Database -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_card"
+            android:padding="20dp"
+            android:layout_marginBottom="16dp">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="🗄️  Database &amp; Messaging"
+                android:textColor="@color/text_primary" android:textSize="15sp" android:textStyle="bold"
+                android:layout_marginBottom="14dp"/>
+            <com.google.android.material.chip.ChipGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <com.google.android.material.chip.Chip android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="MySQL" style="@style/SkillChip"/>
+                <com.google.android.material.chip.Chip android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Kafka" style="@style/SkillChip"/>
+            </com.google.android.material.chip.ChipGroup>
+        </LinearLayout>
+
+        <!-- Tools -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_card"
+            android:padding="20dp"
+            android:layout_marginBottom="16dp">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="🔧  Tools &amp; DevOps"
+                android:textColor="@color/text_primary" android:textSize="15sp" android:textStyle="bold"
+                android:layout_marginBottom="14dp"/>
+            <com.google.android.material.chip.ChipGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <com.google.android.material.chip.Chip android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Git" style="@style/SkillChip"/>
+                <com.google.android.material.chip.Chip android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="GitHub" style="@style/SkillChip"/>
+                <com.google.android.material.chip.Chip android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="GitLab" style="@style/SkillChip"/>
+                <com.google.android.material.chip.Chip android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Maven" style="@style/SkillChip"/>
+                <com.google.android.material.chip.Chip android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Jenkins" style="@style/SkillChip"/>
+                <com.google.android.material.chip.Chip android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Apache Tomcat" style="@style/SkillChip"/>
+            </com.google.android.material.chip.ChipGroup>
+        </LinearLayout>
+
+        <!-- IDEs -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_card"
+            android:padding="20dp"
+            android:layout_marginBottom="24dp">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="💻  IDEs &amp; OS"
+                android:textColor="@color/text_primary" android:textSize="15sp" android:textStyle="bold"
+                android:layout_marginBottom="14dp"/>
+            <com.google.android.material.chip.ChipGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <com.google.android.material.chip.Chip android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Eclipse" style="@style/SkillChip"/>
+                <com.google.android.material.chip.Chip android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="STS" style="@style/SkillChip"/>
+                <com.google.android.material.chip.Chip android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="VS Code" style="@style/SkillChip"/>
+                <com.google.android.material.chip.Chip android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Linux" style="@style/SkillChip"/>
+                <com.google.android.material.chip.Chip android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Windows" style="@style/SkillChip"/>
+            </com.google.android.material.chip.ChipGroup>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

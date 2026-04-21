@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MY WORK"
+            android:textColor="#A855F7"
+            android:textSize="11sp"
+            android:letterSpacing="0.2"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recent Projects"
+            android:textColor="@color/text_primary"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- Project 1: NABARD -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_card"
+            android:padding="20dp"
+            android:layout_marginBottom="16dp">
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:orientation="horizontal" android:gravity="center_vertical"
+                android:layout_marginBottom="14dp">
+                <LinearLayout
+                    android:layout_width="48dp" android:layout_height="48dp"
+                    android:background="@drawable/bg_icon_box"
+                    android:gravity="center" android:layout_marginEnd="14dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="🏦" android:textSize="22sp"/>
+                </LinearLayout>
+                <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                    android:layout_weight="1" android:orientation="vertical">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="Coops India – NABARD"
+                        android:textColor="@color/text_primary" android:textSize="15sp" android:textStyle="bold"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="National Bank for Agriculture and Rural Development"
+                        android:textColor="#A855F7" android:textSize="11sp"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:text="Auditing cooperative banks by digitizing physical records into a centralized database to assess data maintenance practices and identify record-keeping gaps."
+                android:textColor="@color/text_muted" android:textSize="13sp"
+                android:lineSpacingMultiplier="1.5" android:layout_marginBottom="14dp"/>
+
+            <com.google.android.material.chip.ChipGroup android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.google.android.material.chip.Chip android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Java" style="@style/SkillChip"/>
+                <com.google.android.material.chip.Chip android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Angular" style="@style/SkillChip"/>
+                <com.google.android.material.chip.Chip android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Spring Boot" style="@style/SkillChip"/>
+                <com.google.android.material.chip.Chip android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="MySQL" style="@style/SkillChip"/>
+                <com.google.android.material.chip.Chip android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Kafka" style="@style/SkillChip"/>
+            </com.google.android.material.chip.ChipGroup>
+        </LinearLayout>
+
+        <!-- Project 2: TIHCL -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_card"
+            android:padding="20dp"
+            android:layout_marginBottom="16dp">
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:orientation="horizontal" android:gravity="center_vertical"
+                android:layout_marginBottom="14dp">
+                <LinearLayout
+                    android:layout_width="48dp" android:layout_height="48dp"
+                    android:background="@drawable/bg_icon_box"
+                    android:gravity="center" android:layout_marginEnd="14dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="💰" android:textSize="22sp"/>
+                </LinearLayout>
+                <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                    android:layout_weight="1" android:orientation="vertical">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="Lending Application – TIHCL"
+                        android:textColor="@color/text_primary" android:textSize="15sp" android:textStyle="bold"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="Telangana Industrial Health Clinic Limited"
+                        android:textColor="#A855F7" android:textSize="11sp"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:text="Comprehensive lending management system with RBAC authentication, loan lifecycle management, NPA tracking, and automated financial statement generation."
+                android:textColor="@color/text_muted" android:textSize="13sp"
+                android:lineSpacingMultiplier="1.5" android:layout_marginBottom="14dp"/>
+
+            <com.google.android.material.chip.ChipGroup android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.google.android.material.chip.Chip android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Java" style="@style/SkillChip"/>
+                <com.google.android.material.chip.Chip android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Angular" style="@style/SkillChip"/>
+                <com.google.android.material.chip.Chip android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Spring Boot" style="@style/SkillChip"/>
+                <com.google.android.material.chip.Chip android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="MySQL" style="@style/SkillChip"/>
+                <com.google.android.material.chip.Chip android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Microservices" style="@style/SkillChip"/>
+            </com.google.android.material.chip.ChipGroup>
+        </LinearLayout>
+
+        <!-- Project 3: APCOB -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_card"
+            android:padding="20dp"
+            android:layout_marginBottom="24dp">
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:orientation="horizontal" android:gravity="center_vertical"
+                android:layout_marginBottom="14dp">
+                <LinearLayout
+                    android:layout_width="48dp" android:layout_height="48dp"
+                    android:background="@drawable/bg_icon_box"
+                    android:gravity="center" android:layout_marginEnd="14dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="📊" android:textSize="22sp"/>
+                </LinearLayout>
+                <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content"
+                    android:layout_weight="1" android:orientation="vertical">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="Data Capturing Tool – APCOB"
+                        android:textColor="@color/text_primary" android:textSize="15sp" android:textStyle="bold"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="Andhra Pradesh State Co-Operative Bank Limited"
+                        android:textColor="#A855F7" android:textSize="11sp"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:text="Data entry application capturing FHR report data integrated into ERP system, with real-time monitoring of field-level employees for higher authorities."
+                android:textColor="@color/text_muted" android:textSize="13sp"
+                android:lineSpacingMultiplier="1.5" android:layout_marginBottom="14dp"/>
+
+            <com.google.android.material.chip.ChipGroup android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.google.android.material.chip.Chip android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Java" style="@style/SkillChip"/>
+                <com.google.android.material.chip.Chip android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Angular" style="@style/SkillChip"/>
+                <com.google.android.material.chip.Chip android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Spring Boot" style="@style/SkillChip"/>
+                <com.google.android.material.chip.Chip android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="MySQL" style="@style/SkillChip"/>
+                <com.google.android.material.chip.Chip android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Microservices" style="@style/SkillChip"/>
+            </com.google.android.material.chip.ChipGroup>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

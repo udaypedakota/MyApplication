@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- Section Header -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GET TO KNOW"
+            android:textColor="#A855F7"
+            android:textSize="11sp"
+            android:letterSpacing="0.2"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About Me"
+            android:textColor="@color/text_primary"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- Info Cards Row -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:layout_marginBottom="24dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:background="@drawable/bg_card"
+                android:padding="14dp"
+                android:gravity="center"
+                android:layout_marginEnd="8dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="💼" android:textSize="22sp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Experience" android:textColor="@color/text_muted" android:textSize="10sp"
+                    android:layout_marginTop="4dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="3.10 Yrs" android:textColor="@color/text_primary" android:textSize="12sp"
+                    android:textStyle="bold" android:gravity="center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:background="@drawable/bg_card"
+                android:padding="14dp"
+                android:gravity="center"
+                android:layout_marginEnd="8dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="🏢" android:textSize="22sp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Company" android:textColor="@color/text_muted" android:textSize="10sp"
+                    android:layout_marginTop="4dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Intellect\nInformatics" android:textColor="@color/text_primary"
+                    android:textSize="11sp" android:textStyle="bold" android:gravity="center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:background="@drawable/bg_card"
+                android:padding="14dp"
+                android:gravity="center">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="🎓" android:textSize="22sp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Education" android:textColor="@color/text_muted" android:textSize="10sp"
+                    android:layout_marginTop="4dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="B.Sc\nComputers" android:textColor="@color/text_primary"
+                    android:textSize="11sp" android:textStyle="bold" android:gravity="center"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Bio -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_card"
+            android:padding="20dp"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Who I Am"
+                android:textColor="@color/text_primary"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="12dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="I\'m a Full Stack Developer with 3.10 years of experience at Intellect Informatics Pvt Ltd, Hyderabad. I specialize in Java, Spring Boot, and Angular — building end-to-end scalable applications with microservices architecture. I\'m proficient in the full SDLC and passionate about writing clean, reusable code."
+                android:textColor="@color/text_muted"
+                android:textSize="14sp"
+                android:lineSpacingMultiplier="1.6"/>
+        </LinearLayout>
+
+        <!-- Experience Timeline -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Work Experience"
+            android:textColor="@color/text_primary"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_card"
+            android:padding="20dp"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="May 2022 – Present"
+                android:textColor="#A855F7"
+                android:textSize="11sp"
+                android:background="@drawable/bg_tag"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Software Engineer"
+                android:textColor="@color/text_primary"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Intellect Informatics Pvt Ltd · Hyderabad"
+                android:textColor="#A855F7"
+                android:textSize="13sp"
+                android:layout_marginBottom="12dp"/>
+
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:text="• Collaborated with clients to understand and document project requirements.\n• Developed and implemented RESTful APIs for seamless backend functionality.\n• Designed and built user-friendly frontend interfaces using Angular.\n• Implemented reusable software components for higher code quality.\n• Managed end-to-end development covering both backend and frontend tasks.\n• Actively participated in sprint planning, execution, and delivery in SDLC."
+                android:textColor="@color/text_muted" android:textSize="13sp" android:lineSpacingMultiplier="1.6"/>
+        </LinearLayout>
+
+        <!-- Education -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Education"
+            android:textColor="@color/text_primary"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_card"
+            android:padding="20dp"
+            android:layout_marginBottom="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2018 – 2021"
+                android:textColor="#06B6D4"
+                android:textSize="11sp"
+                android:background="@drawable/bg_tag"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B.Sc (Computers)"
+                android:textColor="@color/text_primary"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dr. B. R. Ambedkar University · Srikakulam"
+                android:textColor="#06B6D4"
+                android:textSize="13sp"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Graduated with a focus on computer science fundamentals, programming, and software development."
+                android:textColor="@color/text_muted"
+                android:textSize="13sp"
+                android:lineSpacingMultiplier="1.5"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

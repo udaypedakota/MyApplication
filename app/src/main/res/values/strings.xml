@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Uday Pedakota</string>
+
+    <!-- Hero -->
+    <string name="hero_greeting">Hello, I\'m</string>
+    <string name="hero_name">Uday Pedakota</string>
+    <string name="hero_role">Full Stack Developer</string>
+    <string name="hero_bio">3+ years of experience building scalable Java &amp; Angular applications. Passionate about clean code, microservices, and delivering great user experiences.</string>
+    <string name="hero_years">3+\nYears Exp.</string>
+    <string name="hero_projects">3\nProjects</string>
+    <string name="hero_tech">10+\nTechnologies</string>
+
+    <!-- About -->
+    <string name="about_text">I\'m a Full Stack Developer with 3.10 years of experience at Intellect Informatics Pvt Ltd, Hyderabad. I specialize in Java, Spring Boot, and Angular — building end-to-end scalable applications with microservices architecture. I\'m proficient in the full SDLC and passionate about writing clean, reusable code.</string>
+
+    <!-- Contact -->
+    <string name="email">uday.pedakota@gmail.com</string>
+    <string name="location">Hyderabad, India</string>
+    <string name="linkedin">linkedin.com/in/uday-pedakota</string>
+    <string name="github">github.com/udaypedakota</string>
+    <string name="whatsapp_number">919908660573</string>
+</resources>
